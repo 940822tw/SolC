@@ -1,0 +1,16 @@
+body{background-image: url('bg.jpg'); width: 3402px; height: 1913px; margin:0; padding: 0;}
+#bg{position: fixed; border: 0;}
+#bg img{width: 300vw; height: 300vh;}
+html{margin:0; padding: 0;}
+img{width:200px; height:200px;}
+
+.draggable {
+  position: absolute;
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
+}
+
+.draggable:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
